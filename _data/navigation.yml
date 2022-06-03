@@ -3,10 +3,10 @@ main:
   #- title: "Home"
   #  url: "/"
    - title: "About"
-     url: https://dea980.github.io//about/
+     url: /about/
    - title: "Category"
-     url: https://dea980.github.io//categories/
+     url: /categories/
    - title: "Post"
-     url: https://dea980.github.io//year-archive/
+     url: /year-archive/
    - title: "Tag"
-     url: https://dea980.github.io//tag/
+     url: /tag/
