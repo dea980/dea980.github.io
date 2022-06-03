@@ -110,22 +110,22 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:kdea989@email.com"
+      url: "mailto:kdea989@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://dea980.github.io"
+      url: "https://dea980.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/kdea980"
+      url: "https://twitter.com/kdea980"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/kdea980"
+      url: "https://facebook.com/kdea980"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/dea980"
+      url: "https://github.com/dea980"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/kdea980/"
+      url: "https://instagram.com/kdea980/"
 
 # Site Footer
 footer:
@@ -216,7 +216,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 15 # amount of posts to show #5 default
+paginate: 5 # amount of posts to show #5 default
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
