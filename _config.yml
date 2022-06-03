@@ -94,9 +94,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google"
+  provider               : "google-gtag"
   google:
-    tracking_id          : 317770373
+    tracking_id          : "317770373"
     anonymize_ip         : # true, false (default)
 
 
@@ -274,6 +274,7 @@ compress_html:
   ignore:
     envs: development
 
+future: true
 
 # Defaults
 defaults:
@@ -284,10 +285,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
 
   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
   - scope:
