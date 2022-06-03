@@ -2,11 +2,11 @@
 main:
   #- title: "Home"
   #  url: "/"
-   - title: "About"
-     url: /about/
-   - title: "Category"
-     url: /categories/
-   - title: "Post"
-     url: /year-archive/
-   - title: "Tag"
-     url: /tag/
+  - title: "About"
+    url: /about/
+  - title: "Category"
+    url: /categories/
+  - title: "Post"
+    url: /year-archive/
+  - title: "Tag"
+    url: /tag/

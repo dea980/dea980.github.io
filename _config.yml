@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "Daeyeop Kim's Dev Blog"
 title_separator          : "-"
-subtitle                 : "Preparing..."
+subtitle                 : "class of 2024"
 name                     : "김대엽 (Daeyeop Kim)"
 description              : "Studying for developer"
 url                      : "https://dea980.github.io"
@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Studying for developer"
   location         : "Republic of Korea"
-  email            : "kdea989@gmail.com"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
