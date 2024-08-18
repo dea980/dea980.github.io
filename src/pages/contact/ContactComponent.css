@@ -38,6 +38,10 @@
   justify-content: center;
 }
 
+.contact-heading-img {
+  border-radius: 50%;
+}
+
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;

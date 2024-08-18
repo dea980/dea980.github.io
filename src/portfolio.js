@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   // wanted to set as true but might need my initial settings
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -556,7 +556,7 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
+          title: "Software Engineer Intern",
           company: "TikTok Inc.",
           company_url: "https://www.tiktok.com/en/",
           logo_path: "tiktok_logo.png",
@@ -632,7 +632,7 @@ const experience = {
           company: "Indiana University",
           company_url:
             "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
+          logo_path: "dsc_logo.png", // needed to chagne into CS LOGO
           duration: "Jan 2018 - May 2024",
           location: "Bloomington, Indiana",
           description:
@@ -700,7 +700,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "DaeyeopKim.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -708,7 +708,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://dea980.io/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -720,7 +720,8 @@ const contactPageData = {
     postalCode: "47401",
     streetAddress: "806 S Auto Mall rd",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34https://www.google.com/maps/place/S+Auto+Mall+Rd,+Bloomington,+IN+47401/@39.156609,-86.4986957,17z/data=!3m1!4b1!4m6!3m5!1s0x886c6426f430b163:0x1bf90d23d5c23c94!8m2!3d39.156609!4d-86.4961208!16s%2Fg%2F1tfmc_0d?entry=ttuWye4tpS17",
+    location_map_link:
+      "https://maps.app.goo.gl/NvYZqa34https://www.google.com/maps/place/S+Auto+Mall+Rd,+Bloomington,+IN+47401/@39.156609,-86.4986957,17z/data=!3m1!4b1!4m6!3m5!1s0x886c6426f430b163:0x1bf90d23d5c23c94!8m2!3d39.156609!4d-86.4961208!16s%2Fg%2F1tfmc_0d?entry=ttuWye4tpS17",
   },
   phoneSection: {
     title: "",
