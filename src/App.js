@@ -7,14 +7,14 @@ import { GlobalStyles } from "./global";
 
 function App() {
   return (
-    <ThemeProvider theme={chosenTheme}>
-      <>
-        <GlobalStyles />
-        <div className="App">
+    <div className="App">
+      <ThemeProvider theme={chosenTheme}>
+        <>
+          <GlobalStyles />
           <Main theme={chosenTheme} />
-        </div>
-      </>
-    </ThemeProvider>
+        </>
+      </ThemeProvider>
+    </div>
   );
 }
 
