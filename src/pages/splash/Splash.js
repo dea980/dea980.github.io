@@ -9,7 +9,7 @@ function AnimatedSplash(props) {
         className="screen"
         style={{ backgroundColor: props.theme.splashBg }}
       ></div>
-      <div id="logo" theme={props.theme}>
+      <div id="logo" style={{ color: props.theme.text }}>
         <div className="dyk-container">
           <div className="vertical-line"></div>
           <div className="dyk-text">DYK</div>
@@ -30,11 +30,15 @@ class Splash extends Component {
   }
 
   componentDidMount() {
-    this.id = setTimeout(() => this.setState({ redirect: true }), 5500);
+    this.id = setTimeout(() => {
+      this.setState({ redirect: true });
+    }, 5500);
   }
 
   componentWillUnmount() {
-    clearTimeout(this.id);
+    if (this.id) {
+      clearTimeout(this.id);
+    }
   }
 
   render() {
