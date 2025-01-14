@@ -6,7 +6,6 @@ import {
   socialMediaLinks,
   experience,
   contactPageData,
-  certifications,
 } from "../../portfolio.js";
 
 function SeoHeader() {
@@ -28,15 +27,6 @@ function SeoHeader() {
     ?.experiences?.at(0);
 
   let credentials = [];
-  certifications.certifications.forEach((certification) => {
-    credentials.push({
-      "@context": "https://schema.org",
-      "@type": "EducationalOccupationalCredential",
-      url: certification.certificate_link,
-      name: certification.title,
-      description: certification.subtitle,
-    });
-  });
   const data = {
     "@context": "https://schema.org/",
     "@type": "Person",
