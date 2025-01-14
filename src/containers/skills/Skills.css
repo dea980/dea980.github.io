@@ -1,9 +1,19 @@
+#skills {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
 .skills-main-div {
   display: flex;
   overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 10px;
 }
 
 .skills-header {
+  margin-bottom: 40px;
   font-size: 60px;
   line-height: normal;
   font-family: "Google Sans Regular";
