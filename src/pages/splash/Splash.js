@@ -7,7 +7,10 @@ function AnimatedSplash(props) {
     <div className="logo_wrapper">
       <div
         className="screen"
-        style={{ backgroundColor: props.theme.splashBg }}
+        style={{
+          backgroundColor: props.theme.splashBg,
+          color: props.theme.text,
+        }}
       ></div>
       <div id="logo" style={{ color: props.theme.text }}>
         <div className="dyk-container">
