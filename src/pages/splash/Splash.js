@@ -11,7 +11,10 @@ function AnimatedSplash(props) {
         style={{ backgroundColor: props.theme.splashBg }}
       ></div>
       <div id="logo" theme={props.theme}>
-        DYK, Daeyeop Kim
+        <div className="logo-hex">
+          <div className="logo-hex-inner">DYK</div>
+        </div>
+        <div className="logo-text">Daeyeop Kim</div>
       </div>
     </div>
   );
