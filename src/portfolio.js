@@ -2,7 +2,6 @@
 
 // Website related settings
 const settings = {
-  // wanted to set as true but might need my initial settings
   isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
@@ -25,7 +24,6 @@ const greeting = {
   nickname: "Dan the Man",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  // my resume need to be updated on the drive
   resumeLink:
     "https://drive.google.com/file/d/1LOd6jVTlXfyu25IEgngsHXqWuIUCDHLP/view?usp=sharing",
   portfolio_repository: "https://dyk98.tistory.com/",
@@ -33,56 +31,41 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  //github: "https://github.com/dea980",
-  // linkedin: "https://www.linkedin.com/in/daeyeop-kim-372761129/",
-  // gmail: "kdea989@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/dea980/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/dea980/"
-
   {
     name: "Github",
     link: "https://github.com/dea980",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/daeyeop-kim-372761129/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
     name: "Gmail",
     link: "mailto:kdea989@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
   {
     name: "X-Twitter",
     link: "https://twitter.com/dea980",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+    fontAwesomeIcon: "fa-x-twitter",
+    backgroundColor: "#000000",
   },
   {
     name: "Facebook",
     link: "https://www.facebook.com/dea980/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+    fontAwesomeIcon: "fa-facebook-f",
+    backgroundColor: "#1877F2",
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/dea980/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    fontAwesomeIcon: "fa-instagram",
+    backgroundColor: "#E4405F",
   },
 ];
 
@@ -92,14 +75,13 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        // I might need to add my researches....
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Reinforcement Learning project with visual input and GPU implementation research with Big Red 200 from IU",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
         {
-          skillName: "skitlearn",
+          skillName: "tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
@@ -123,6 +105,14 @@ const skills = {
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "scikit",
+          fontAwesomeClassname: "ion-logo-scikit-learn",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -157,13 +147,13 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+        // {
+        //   skillName: "Sass",
+        //   fontAwesomeClassname: "simple-icons:sass",
+        //   style: {
+        //     color: "#CC6699",
+        //   },
+        // },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -193,16 +183,16 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
+        // {
+        //   skillName: "Yarn",
+        //   fontAwesomeClassname: "simple-icons:sudo",
+        //   style: {
+        //     color: "#2C8EBB",
+        //   },
+        // },
         {
           skillName: "Django",
-          fontAwesomeClassname: "simple-icons:Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
             color: "#663399",
           },
@@ -226,13 +216,6 @@ const skills = {
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
-        //     {
-        //       skillName: "GCP",
-        //       fontAwesomeClassname: "simple-icons:googlecloud",
-        //       style: {
-        //         color: "#4285F4",
-        //       },
-        //     },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -300,13 +283,6 @@ const skills = {
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "Adobe XD",
-        //   fontAwesomeClassname: "simple-icons:adobexd",
-        //   style: {
-        //     color: "#FF2BC2",
-        //   },
-        // },
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -333,7 +309,6 @@ const skills = {
   ],
 };
 
-// Education Page
 const competitiveSites = {
   competitiveSites: [
     {
@@ -388,120 +363,6 @@ const degrees = {
   ],
 };
 
-// const certifications = {
-//   certifications: [
-//     {
-//       title: "Machine Learning",
-//       subtitle: "- Andrew Ng",
-//       logo_path: "stanford_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-//       alt_name: "Stanford University",
-//       color_code: "#8C151599",
-//     },
-//     {
-//       title: "Deep Learning",
-//       subtitle: "- Andrew Ng",
-//       logo_path: "deeplearning_ai_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-//       alt_name: "deeplearning.ai",
-//       color_code: "#00000099",
-//     },
-//     {
-//       title: "ML on GCP",
-//       subtitle: "- GCP Training",
-//       logo_path: "google_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-//       alt_name: "Google",
-//       color_code: "#0C9D5899",
-//     },
-//     {
-//       title: "Data Science",
-//       subtitle: "- Alex Aklson",
-//       logo_path: "ibm_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-//       alt_name: "IBM",
-//       color_code: "#1F70C199",
-//     },
-//     {
-//       title: "Big Data",
-//       subtitle: "- Kim Akers",
-//       logo_path: "microsoft_logo.png",
-//       certificate_link:
-//         "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-//       alt_name: "Microsoft",
-//       color_code: "#D83B0199",
-//     },
-//     {
-//       title: "Advanced Data Science",
-//       subtitle: "- Romeo Kienzler",
-//       logo_path: "ibm_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-//       alt_name: "IBM",
-//       color_code: "#1F70C199",
-//     },
-//     {
-//       title: "Advanced ML on GCP",
-//       subtitle: "- GCP Training",
-//       logo_path: "google_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-//       alt_name: "Google",
-//       color_code: "#0C9D5899",
-//     },
-//     {
-//       title: "DL on Tensorflow",
-//       subtitle: "- Laurence Moroney",
-//       logo_path: "deeplearning_ai_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-//       alt_name: "deeplearning.ai",
-//       color_code: "#00000099",
-//     },
-//     {
-//       title: "Fullstack Development",
-//       subtitle: "- Jogesh Muppala",
-//       logo_path: "coursera_logo.png",
-//       certificate_link:
-//         "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-//       alt_name: "Coursera",
-//       color_code: "#2A73CC",
-//     },
-//     {
-//       title: "Kuberenetes on GCP",
-//       subtitle: "- Qwiklabs",
-//       logo_path: "gcp_logo.png",
-//       certificate_link:
-//         "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-//       alt_name: "GCP",
-//       color_code: "#4285F499",
-//     },
-//     {
-//       title: "Cryptography",
-//       subtitle: "- Saurabh Mukhopadhyay",
-//       logo_path: "nptel_logo.png",
-//       certificate_link:
-//         "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-//       alt_name: "NPTEL",
-//       color_code: "#FFBB0099",
-//     },
-//     {
-//       title: "Cloud Architecture",
-//       subtitle: "- Qwiklabs",
-//       logo_path: "gcp_logo.png",
-//       certificate_link:
-//         "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-//       alt_name: "GCP",
-//       color_code: "#4285F499",
-//     },
-//   ],
-// };
-
-// Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Work Experience and Projects",
@@ -526,7 +387,7 @@ const experience = {
         {
           title: "Research Assistant",
           company: "Luddy School of Informatics, The Building a Mind Lab",
-          company_url: "https://bloomington.iu.edu/",
+          company_url: "https://www.buildingamind.com/",
           logo_path: "company.png",
           duration: "May 2023 - May 2024",
           location: "Bloomington, IN",
@@ -534,24 +395,24 @@ const experience = {
             "• Assisted in the development of a VR Animal Chamber Pipeline using the Unity Game Engine\n• Designed and exported 3D models for use in Animal Chamber Environment and 3D printing\n• Trained a Deep Pose Estimation Model, achieving on average 98% animal key-point accuracy",
           color: "#9b1578",
         },
-        {
-          title: "Software Developer, Co-Founder",
-          company: "DUBU TIME",
-          company_url: "#",
-          logo_path: "company.png",
-          duration: "December 2021 - February 2022",
-          location: "Seoul, South Korea",
-          description:
-            "• Co-Founded Dubu Time, a mobile productivity app which rewards users for focusing on tasks\n• Deployed a user database backend for use on a front-end interface\n• Established robust CI/CD pipelines, utilizing GitHub for seamless project operation\n• Conducted market research on target app users to guide User Interface Design",
-          color: "#fc1f20",
-        },
+        // {
+        //   title: "Software Developer, Co-Founder",
+        //   company: "DUBU TIME",
+        //   company_url: "#",
+        //   logo_path: "company.png",
+        //   duration: "December 2021 - February 2022",
+        //   location: "Seoul, South Korea",
+        //   description:
+        //     "• Co-Founded Dubu Time, a mobile productivity app which rewards users for focusing on tasks\n • Deployed a user database backend for use on a front-end interface\n • Established robust CI/CD pipelines, utilizing GitHub for seamless project operation\n • Conducted market research on target app users to guide User Interface Design",
+        //   color: "#fc1f20"
+        // },
       ],
     },
     {
-      title: "Projects",
+      title: "Research Projects",
       experiences: [
         {
-          title: "Predicting the Stock market price with ML",
+          title: "Stock Market Price Prediction with ML",
           company: "Research Project",
           company_url:
             "https://github.com/dea980/ML_Project-for-predicting-Stockprice",
@@ -559,7 +420,7 @@ const experience = {
           duration: "September 2023 - December 2023",
           location: "Bloomington, IN",
           description:
-            "• Implemented the Machine Learning Architectures and create hybrid architectures with LSTM and GRU.\n• Collaborate and managed with advisor and teammate about research project presentation and paper.",
+            "• Implemented Machine Learning Architectures and created hybrid architectures with LSTM and GRU\n• Collaborated with advisor and teammate on research project presentation and paper\n• Achieved significant accuracy in predicting stock market trends using ML models",
           color: "#4285F4",
         },
         {
@@ -570,11 +431,11 @@ const experience = {
           duration: "January 2023 - May 2023",
           location: "Bloomington, IN",
           description:
-            "• Trained and experimented with several RL agents in OpenAI Gym to perform classic Cartpole balancing task\n• Optimized training data through a Variational Auto-Encoder to maximize agent performance",
+            "• Trained and experimented with several RL agents in OpenAI Gym to perform classic Cartpole balancing task\n• Optimized training data through a Variational Auto-Encoder to maximize agent performance\n• Published research findings on visual input processing in RL environments",
           color: "#D83B01",
         },
         {
-          title: "Can CPU programming be replaced by GPU programming",
+          title: "GPU vs CPU Performance Analysis",
           company: "Research Project",
           company_url:
             "https://github.com/dea980/BigRed200_research_project_by_cuda",
@@ -582,7 +443,7 @@ const experience = {
           duration: "August 2022 - December 2022",
           location: "Bloomington, IN",
           description:
-            "• Developed algorithms to report and compare CPU and GPUs performance metrics on matrix transposition\n• Interfaced with IU's BigRed 200 supercomputer to perform metric comparisons",
+            "• Developed algorithms to report and compare CPU and GPUs performance metrics on matrix transposition\n• Interfaced with IU's BigRed 200 supercomputer to perform metric comparisons\n• Published comprehensive analysis of GPU vs CPU performance in scientific computing",
           color: "#000000",
         },
       ],
@@ -617,11 +478,10 @@ const experience = {
   ],
 };
 
-// Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Research Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My research projects focus on machine learning, computer vision, and high-performance computing. These projects demonstrate my expertise in developing innovative solutions and conducting rigorous academic research.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -630,7 +490,7 @@ const publicationsHeader = {
   description: "Some of my published Articles, Blogs and Research.",
   avatar_image_path: "projects_image.svg",
 };
-// paper?
+
 const publications = {
   data: [
     {
@@ -658,8 +518,6 @@ const publications = {
   ],
 };
 
-// Contact Page
-// I might need the picture of me ...?
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
@@ -700,7 +558,6 @@ export {
   skills,
   competitiveSites,
   degrees,
-  // certifications,
   experience,
   projectsHeader,
   publicationsHeader,
