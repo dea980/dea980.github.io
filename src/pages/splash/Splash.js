@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Splash.css";
 import { Redirect } from "react-router-dom";
-import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
 function AnimatedSplash(props) {
   return (
@@ -11,8 +10,10 @@ function AnimatedSplash(props) {
         style={{ backgroundColor: props.theme.splashBg }}
       ></div>
       <div id="logo" theme={props.theme}>
-        <div className="logo-hex">
-          <div className="logo-hex-inner">DYK</div>
+        <div className="dyk-container">
+          <div className="vertical-line"></div>
+          <div className="dyk-text">DYK</div>
+          <div className="vertical-line"></div>
         </div>
         <div className="logo-text">Daeyeop Kim</div>
       </div>
