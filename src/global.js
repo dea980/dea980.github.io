@@ -7,6 +7,12 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
@@ -14,7 +20,5 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   #root {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    height: 100%;
   }`;
