@@ -11,7 +11,7 @@ function AnimatedSplash(props) {
         style={{ backgroundColor: props.theme.splashBg }}
       ></div>
       <div id="logo" theme={props.theme}>
-        Daeyeop Kim
+        DYK, Daeyeop Kim
       </div>
     </div>
   );
