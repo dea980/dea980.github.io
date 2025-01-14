@@ -16,6 +16,11 @@ export default class Main extends Component {
       <BrowserRouter basename="/">
         <Switch>
           <Route
+            path="/home"
+            exact
+            render={(props) => <Home {...props} theme={this.props.theme} />}
+          />
+          <Route
             path="/"
             exact
             render={(props) =>
@@ -25,11 +30,6 @@ export default class Main extends Component {
                 <Home {...props} theme={this.props.theme} />
               )
             }
-          />
-          <Route
-            path="/home"
-            exact
-            render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
             path="/experience"
