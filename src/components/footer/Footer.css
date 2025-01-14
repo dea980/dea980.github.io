@@ -1,10 +1,16 @@
-.footer-text {
-  text-align: center;
-  /* color: #868e96; */
-  font-weight: bold;
-  font-family: "Google Sans Regular";
+.footer-div {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  position: relative;
+  bottom: 0;
+  background-color: transparent;
 }
 
-.footer-div {
-  margin-top: 2rem;
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  margin: 0;
+  padding: 0 1rem;
 }
