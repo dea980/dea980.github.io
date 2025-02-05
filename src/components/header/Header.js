@@ -50,7 +50,7 @@ function Header({ theme }) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                onMouseOut={(event) => onMouseOut(event)}
+                onMouseOut={onMouseOut}
               >
                 {t.home}
               </NavLink>
@@ -62,7 +62,7 @@ function Header({ theme }) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                onMouseOut={(event) => onMouseOut(event)}
+                onMouseOut={onMouseOut}
               >
                 {t.education}
               </NavLink>
@@ -74,7 +74,7 @@ function Header({ theme }) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                onMouseOut={(event) => onMouseOut(event)}
+                onMouseOut={onMouseOut}
               >
                 {t.experience}
               </NavLink>
@@ -86,7 +86,7 @@ function Header({ theme }) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                onMouseOut={(event) => onMouseOut(event)}
+                onMouseOut={onMouseOut}
               >
                 {t.projects}
               </NavLink>
@@ -98,7 +98,7 @@ function Header({ theme }) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                onMouseOut={(event) => onMouseOut(event)}
+                onMouseOut={onMouseOut}
               >
                 {t.contact}
               </NavLink>
@@ -109,7 +109,7 @@ function Header({ theme }) {
                 onClick={toggleLanguage}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                onMouseOut={(event) => onMouseOut(event)}
+                onMouseOut={onMouseOut}
               >
                 {language === "en" ? "한국어" : "English"}
               </button>
