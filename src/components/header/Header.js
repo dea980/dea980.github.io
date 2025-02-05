@@ -16,6 +16,16 @@ const onMouseOut = (event) => {
 };
 
 class Header extends Component {
+  state = {
+    language: "en",
+  };
+
+  toggleLanguage = () => {
+    this.setState((prevState) => ({
+      language: prevState.language === "en" ? "ko" : "en",
+    }));
+  };
+
   render() {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "/home";
@@ -88,18 +98,6 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              {/* <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Open Source
-                </NavLink>
-              </li> */}
               <li>
                 <NavLink
                   to="/contact"
@@ -111,6 +109,17 @@ class Header extends Component {
                 >
                   Contact Me
                 </NavLink>
+              </li>
+              <li>
+                <button
+                  className="language-toggle"
+                  onClick={this.toggleLanguage}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  {this.state.language === "en" ? "한국어" : "English"}
+                </button>
               </li>
             </ul>
           </header>
