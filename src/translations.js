@@ -15,10 +15,19 @@ export const translations = {
     dataScience: "Data Science & AI",
     cloudInfra: "Cloud Infra-Architecture",
 
+    // Projects
+    researchProjects: "Research Projects",
+    projectsDescription:
+      "My research projects focus on machine learning, computer vision, and high-performance computing. These projects demonstrate my expertise in developing innovative solutions and conducting rigorous academic research.",
+
     // Experience
     workExperience: "Work Experience",
-    researchProjects: "Research Projects",
     leadership: "Leadership",
+    experienceDescription:
+      "I have worked as a Software Engineer and Research Assistant, focusing on software development, machine learning, and research projects. My experience spans across various domains including firmware development, VR applications, and mobile app development.",
+
+    // Education
+    educationTitle: "Education",
 
     // Contact
     contactMe: "Contact Me",
@@ -28,6 +37,9 @@ export const translations = {
     blogsSubtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
     address: "Address",
+    locality: "Seongnam-si",
+    country: "Republic of Korea",
+    region: "Gyeonggi-do",
   },
   ko: {
     // Navigation
@@ -45,10 +57,19 @@ export const translations = {
     dataScience: "데이터 사이언스 & AI",
     cloudInfra: "클라우드 인프라-아키텍처",
 
+    // Projects
+    researchProjects: "연구 프로젝트",
+    projectsDescription:
+      "제 연구 프로젝트는 머신러닝, 컴퓨터 비전, 고성능 컴퓨팅에 중점을 두고 있습니다. 이러한 프로젝트들은 혁신적인 솔루션을 개발하고 엄격한 학술 연구를 수행하는 제 전문성을 보여줍니다.",
+
     // Experience
     workExperience: "직장 경력",
-    researchProjects: "연구 프로젝트",
     leadership: "리더십",
+    experienceDescription:
+      "소프트웨어 엔지니어와 연구 조교로 일하면서 소프트웨어 개발, 머신러닝, 연구 프로젝트에 집중해왔습니다. 제 경험은 펌웨어 개발, VR 애플리케이션, 모바일 앱 개발 등 다양한 분야에 걸쳐 있습니다.",
+
+    // Education
+    educationTitle: "학력",
 
     // Contact
     contactMe: "연락처",
@@ -58,5 +79,8 @@ export const translations = {
     blogsSubtitle:
       "전문적인 경력 여정에서의 경험과 기술적 지식을 공유하고 있습니다.",
     address: "주소",
+    locality: "성남시",
+    country: "대한민국",
+    region: "경기도",
   },
 };
