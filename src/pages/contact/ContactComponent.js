@@ -106,7 +106,7 @@ function Contact(props) {
               >
                 {language === "en"
                   ? addressSection.subtitle
-                  : `${t.region} ${t.locality}`}
+                  : "경기도 성남시 중원구 사기막골로 201, 대한민국, 13205"}
               </p>
               <div className="address-btn-div">
                 <Button
