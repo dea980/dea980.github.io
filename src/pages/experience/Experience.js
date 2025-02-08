@@ -37,12 +37,6 @@ function Experience(props) {
               >
                 {t.experienceDescription}
               </h3>
-              <p
-                className="experience-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {t.experienceDescription}
-              </p>
             </div>
           </div>
         </Fade>
