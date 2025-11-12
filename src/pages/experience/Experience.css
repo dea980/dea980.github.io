@@ -41,12 +41,14 @@
 
 .experience-heading-sub-text {
   font-size: 20px;
-  font-family: "Google Sans Medium";
+  font-family: "Google Sans Regular";
   text-align: center;
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
   line-height: 30px;
+  font-weight: 300;
+  color: rgb(127, 141, 170);
 }
 
 .experience-header-detail-text {

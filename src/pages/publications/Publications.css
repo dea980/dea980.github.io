@@ -1,0 +1,146 @@
+.publications-main {
+  width: 100%;
+  text-align: center;
+}
+
+.basic-publications {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.publications-heading-div {
+  display: flex;
+}
+
+.publications-heading-div > * {
+  flex: 1;
+}
+
+.publications-heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publications-heading-text-div {
+  text-align: center;
+}
+
+.publications-heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.publications-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.publications-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
+.publications-section {
+  margin: 60px 40px;
+}
+
+.publications-section-title {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Google Sans Regular";
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.publications-section-subtitle {
+  font-size: 18px;
+  font-family: "Google Sans Regular";
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.publications-cards-div-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem 1rem;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.publications-empty-section {
+  margin: 60px 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+.publications-empty-text {
+  font-size: 18px;
+  font-family: "Google Sans Regular";
+  font-style: italic;
+}
+
+@media (max-width: 1380px) {
+  .publications-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .publications-section-title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .publications-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .publications-heading-div {
+    flex-direction: column;
+  }
+
+  .publications-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .publications-section {
+    margin: 40px 10px;
+  }
+
+  .publications-section-title {
+    font-size: 28px;
+  }
+
+  .publications-section-subtitle {
+    font-size: 16px;
+  }
+
+  .publications-cards-div-main {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .publications-empty-section {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+
+  .publications-empty-text {
+    font-size: 16px;
+  }
+}

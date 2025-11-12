@@ -5,11 +5,12 @@ export const translations = {
     education: "Education",
     experience: "Experience",
     projects: "Projects",
+    publications: "Publications",
     contact: "Contact Me",
 
     // Home Page
     subtitle:
-      "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+      "Computer Science graduate with strong research background in Machine Learning, Computer Vision, and High-Performance Computing. Seeking to pursue Master's degree to advance research in AI and Deep Learning.",
 
     // Skills
     dataScience: "Data Science & AI",
@@ -18,13 +19,13 @@ export const translations = {
     // Projects
     researchProjects: "Research Projects",
     projectsDescription:
-      "My research projects focus on machine learning, computer vision, and high-performance computing. These projects demonstrate my expertise in developing innovative solutions and conducting rigorous academic research.",
+      "My research projects demonstrate strong capabilities in machine learning, computer vision, and high-performance computing. These projects showcase my ability to conduct rigorous academic research, develop innovative solutions, and contribute to the advancement of AI technologies. Each project reflects my commitment to academic excellence and research innovation.",
 
     // Experience
     workExperience: "Work Experience",
     leadership: "Leadership",
     experienceDescription:
-      "I have worked as a Software Engineer and Research Assistant, focusing on software development, machine learning, and research projects. My experience spans across various domains including firmware development, VR applications, and mobile app development.",
+      "I have worked as a Research Assistant and Software Engineer, with a strong focus on machine learning research, computer vision, and high-performance computing. My research experience includes developing deep learning models, conducting GPU performance analysis, and working on reinforcement learning projects. I am passionate about advancing AI research and contributing to the academic community.",
 
     // Education
     educationTitle: "Education",
@@ -32,7 +33,7 @@ export const translations = {
     // Contact
     contactMe: "Contact Me",
     contactDescription:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available for academic discussions, research collaborations, and inquiries about my research work. Please feel free to reach out via email or LinkedIn. I am particularly interested in discussing research opportunities in Machine Learning, Computer Vision, and High-Performance Computing.",
     blogs: "Blogs",
     blogsSubtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
@@ -47,11 +48,12 @@ export const translations = {
     education: "교육",
     experience: "경력",
     projects: "프로젝트",
+    publications: "논문",
     contact: "연락처",
 
     // Home Page
     subtitle:
-      "지속 가능하고 확장 가능한 사회적, 기술적 시스템을 개발하는 엔드투엔드 제품에 항상 열정을 가지고 있는 개발자입니다.",
+      "머신러닝, 컴퓨터 비전, 고성능 컴퓨팅 분야의 강한 연구 배경을 가진 컴퓨터 과학 학부 졸업생입니다. AI 및 딥러닝 연구 발전을 위해 석사 학위를 추구하고자 합니다.",
 
     // Skills
     dataScience: "데이터 사이언스 & AI",
@@ -60,13 +62,13 @@ export const translations = {
     // Projects
     researchProjects: "연구 프로젝트",
     projectsDescription:
-      "제 연구 프로젝트는 머신러닝, 컴퓨터 비전, 고성능 컴퓨팅에 중점을 두고 있습니다. 이러한 프로젝트들은 혁신적인 솔루션을 개발하고 엄격한 학술 연구를 수행하는 제 전문성을 보여줍니다.",
+      "제 연구 프로젝트는 머신러닝, 컴퓨터 비전, 고성능 컴퓨팅 분야에서 강한 역량을 보여줍니다. 이러한 프로젝트들은 엄격한 학술 연구 수행, 혁신적인 솔루션 개발, AI 기술 발전에 기여하는 제 능력을 보여줍니다. 각 프로젝트는 학술적 우수성과 연구 혁신에 대한 제 헌신을 반영합니다.",
 
     // Experience
     workExperience: "직장 경력",
     leadership: "리더십",
     experienceDescription:
-      "소프트웨어 엔지니어와 연구 조교로 일하면서 소프트웨어 개발, 머신러닝, 연구 프로젝트에 집중해왔습니다. 제 경험은 펌웨어 개발, VR 애플리케이션, 모바일 앱 개발 등 다양한 분야에 걸쳐 있습니다.",
+      "연구 조교와 소프트웨어 엔지니어로 일하면서 머신러닝 연구, 컴퓨터 비전, 고성능 컴퓨팅에 강한 집중을 해왔습니다. 제 연구 경험은 딥러닝 모델 개발, GPU 성능 분석 수행, 강화학습 프로젝트 작업을 포함합니다. AI 연구 발전과 학술 커뮤니티에 기여하는 것에 열정을 가지고 있습니다.",
 
     // Education
     educationTitle: "학력",
@@ -74,7 +76,7 @@ export const translations = {
     // Contact
     contactMe: "연락처",
     contactDescription:
-      "거의 모든 소셜 미디어에서 연락이 가능합니다. 메시지를 보내시면 24시간 이내에 답변 드리겠습니다. ML, AI, React, Android, Cloud 및 오픈소스 개발과 관련하여 도움을 드릴 수 있습니다.",
+      "학술 토론, 연구 협력, 연구 작업에 대한 문의를 위해 연락 가능합니다. 이메일이나 LinkedIn을 통해 언제든지 연락 주시기 바랍니다. 특히 머신러닝, 컴퓨터 비전, 고성능 컴퓨팅 분야의 연구 기회에 대해 논의하는 데 관심이 있습니다.",
     blogs: "블로그",
     blogsSubtitle:
       "전문적인 경력 여정에서의 경험과 기술적 지식을 공유하고 있습니다.",

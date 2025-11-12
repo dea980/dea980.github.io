@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Daeyeop's Portfolio",
+  title: "Daeyeop Kim - Graduate School Application Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Research-focused Computer Science student with expertise in Machine Learning, Computer Vision, and High-Performance Computing. Seeking admission to Master's program to advance research in AI and Deep Learning.",
   og: {
-    title: "Daeyeop Kim Portfolio",
+    title: "Daeyeop Kim - Graduate School Application Portfolio",
     type: "website",
     url: "https://dyk98.tistory.com/",
   },
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "DaeyeopKim",
   nickname: "Dan the Man",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Computer Science graduate with strong research background in Machine Learning, Computer Vision, and High-Performance Computing. Seeking to pursue Master's degree to advance research in AI and Deep Learning.",
   resumeLink:
     "https://drive.google.com/file/d/1LOd6jVTlXfyu25IEgngsHXqWuIUCDHLP/view?usp=sharing",
   portfolio_repository: "https://github.com/dea980",
@@ -212,8 +212,8 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        // "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
@@ -365,9 +365,9 @@ const degrees = {
 
 const experience = {
   title: "Experience",
-  subtitle: "Work Experience and Projects",
+  subtitle: "Research Experience and Academic Projects",
   description:
-    "I have worked as a Software Engineer and Research Assistant, focusing on software development, machine learning, and research projects. My experience spans across various domains including firmware development, VR applications, and mobile app development.",
+    "I have worked as a Research Assistant and Software Engineer, with a strong focus on machine learning research, computer vision, and high-performance computing. My research experience includes developing deep learning models, conducting GPU performance analysis, and working on reinforcement learning projects. I am passionate about advancing AI research and contributing to the academic community.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -481,14 +481,67 @@ const experience = {
 const projectsHeader = {
   title: "Research Projects",
   description:
-    "My research projects focus on machine learning, computer vision, and high-performance computing. These projects demonstrate my expertise in developing innovative solutions and conducting rigorous academic research.",
+    "My research projects demonstrate strong capabilities in machine learning, computer vision, and high-performance computing. These projects showcase my ability to conduct rigorous academic research, develop innovative solutions, and contribute to the advancement of AI technologies. Each project reflects my commitment to academic excellence and research innovation.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Research",
-  description: "Some of my published Articles, Blogs and Research.",
+  title: "Research Publications & Papers",
+  description:
+    "Academic research papers and projects demonstrating my research capabilities and contributions to the field of Machine Learning and Computer Science.",
   avatar_image_path: "projects_image.svg",
+};
+
+const researchInterests = {
+  title: "Research Interests",
+  subtitle:
+    "My research interests span across multiple domains in Artificial Intelligence and Computer Science",
+  interests: [
+    {
+      name: "Machine Learning & Deep Learning",
+      description:
+        "Deep learning architectures, neural network optimization, and advanced ML algorithms",
+      keywords: [
+        "Deep Learning",
+        "Neural Networks",
+        "Model Optimization",
+        "Transfer Learning",
+      ],
+    },
+    {
+      name: "Computer Vision",
+      description:
+        "Image recognition, object detection, pose estimation, and visual understanding",
+      keywords: [
+        "Image Processing",
+        "Object Detection",
+        "Pose Estimation",
+        "Visual Recognition",
+      ],
+    },
+    {
+      name: "Reinforcement Learning",
+      description:
+        "RL algorithms, visual input processing, and agent training methodologies",
+      keywords: [
+        "RL Algorithms",
+        "Visual RL",
+        "Agent Training",
+        "Policy Optimization",
+      ],
+    },
+    {
+      name: "High-Performance Computing",
+      description:
+        "GPU computing, parallel processing, and optimization of computational resources",
+      keywords: [
+        "GPU Computing",
+        "CUDA",
+        "Parallel Processing",
+        "Performance Optimization",
+      ],
+    },
+  ],
 };
 
 const publications = {
@@ -500,6 +553,8 @@ const publications = {
       description:
         "Stock Research Price Prediction with AI Models paper and repository",
       url: "https://github.com/dea980/ML_Project-for-predicting-Stockprice",
+      type: "research", // 'research' or 'paper_review'
+      paperReview: null, // 논문 정리 내용 (있으면 여기에)
     },
     {
       id: "Reinforcement Learning with Visual Inputs",
@@ -507,6 +562,8 @@ const publications = {
       createdAt: "2023-12-19T00:00:00Z",
       description: "RL Research paper and repository",
       url: "https://github.com/dea980/RL_Project-with-Visual_Input",
+      type: "research",
+      paperReview: null,
     },
     {
       id: "Is CPU and be replace in GPU",
@@ -514,7 +571,19 @@ const publications = {
       createdAt: "2022-12-12T00:00:00Z",
       description: "GPU Research paper and repository",
       url: "https://github.com/dea980/BigRed200_research_project_by_cuda",
+      type: "research",
+      paperReview: null,
     },
+    // 논문 정리 예시 (추가할 수 있음)
+    // {
+    //   id: "Attention Is All You Need",
+    //   name: "Attention Is All You Need - Paper Review",
+    //   createdAt: "2024-01-15T00:00:00Z",
+    //   description: "A comprehensive review of the Transformer architecture paper",
+    //   url: "#",
+    //   type: "paper_review",
+    //   paperReview: "This paper introduces the Transformer architecture...",
+    // },
   ],
 };
 
@@ -523,7 +592,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "DaeyeopKim.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available for academic discussions, research collaborations, and inquiries about my research work. Please feel free to reach out via email or LinkedIn. I am particularly interested in discussing research opportunities in Machine Learning, Computer Vision, and High-Performance Computing.",
   },
   blogSection: {
     title: "Blogs",
@@ -561,6 +630,7 @@ export {
   experience,
   projectsHeader,
   publicationsHeader,
+  researchInterests,
   publications,
   contactPageData,
 };
