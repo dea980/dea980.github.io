@@ -1,6 +1,5 @@
 # Daeyeop Kim's Portfolio
 
-석사 지원용 포트폴리오 사이트입니다. React로 만들었고 GitHub Pages에 호스팅되어 있습니다.
 
 **Live Site:** [daeyeopkim.github.io](https://dea980.github.io)
 
