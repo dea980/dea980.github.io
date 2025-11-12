@@ -5,6 +5,7 @@
   "homepage": "https://dea980.github.io",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
+    "postbuild": "cp public/404.html build/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
