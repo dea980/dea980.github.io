@@ -102,11 +102,12 @@
               return s.replace(/~and~/g, "&");
             })
             .join("?");
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-          );
+          var newPath = l.pathname.slice(0, -1) + decoded + l.hash;
+          // Ensure we have a leading slash
+          if (newPath[0] !== "/") {
+            newPath = "/" + newPath;
+          }
+          window.history.replaceState(null, null, newPath);
         }
       })(window.location);
     </script>
