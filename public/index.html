@@ -102,7 +102,14 @@
               return s.replace(/~and~/g, "&");
             })
             .join("?");
-          var newPath = l.pathname.slice(0, -1) + decoded + l.hash;
+          // Fix: Handle root path correctly
+          var pathname = l.pathname;
+          if (pathname === "/" || pathname === "/index.html") {
+            pathname = "";
+          } else {
+            pathname = pathname.replace(/\/index\.html$/, "");
+          }
+          var newPath = pathname + decoded + l.hash;
           // Ensure we have a leading slash
           if (newPath[0] !== "/") {
             newPath = "/" + newPath;

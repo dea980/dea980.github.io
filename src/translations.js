@@ -10,11 +10,20 @@ export const translations = {
 
     // Home Page
     subtitle:
-      "Computer Science graduate with strong research background in Machine Learning, Computer Vision, and High-Performance Computing. Seeking to pursue Master's degree to advance research in AI and Deep Learning.",
+      "Computer Science graduate with strong research background in Machine Learning, Computer Vision, and High-Performance Computing. Research interests include AI and Deep Learning.",
 
     // Skills
     dataScience: "Data Science & AI",
     cloudInfra: "Cloud Infra-Architecture",
+    dataScienceSkills: [
+      "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+      "⚡ Experience of working with Reinforcement Learning project with visual input and GPU implementation research with Big Red 200 from IU",
+      "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+    ],
+    cloudInfraSkills: [
+      "⚡ Experience working on multiple cloud platforms",
+      "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+    ],
 
     // Projects
     researchProjects: "Research Projects",
@@ -29,6 +38,15 @@ export const translations = {
 
     // Education
     educationTitle: "Education",
+    degreesReceived: "Degrees Received",
+    basicQualification: "Basic Qualification and Certifcations",
+    visitWebsite: "Visit Website",
+    degreeDescriptions: [
+      [
+        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Reinforcment Learning etc.",
+        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in ML and 3D model.",
+      ],
+    ],
 
     // Contact
     contactMe: "Contact Me",
@@ -48,16 +66,25 @@ export const translations = {
     education: "교육",
     experience: "경력",
     projects: "프로젝트",
-    publications: "논문",
+    publications: "연구",
     contact: "연락처",
 
     // Home Page
     subtitle:
-      "머신러닝, 컴퓨터 비전, 고성능 컴퓨팅 분야의 강한 연구 배경을 가진 컴퓨터 과학 학부 졸업생입니다. AI 및 딥러닝 연구 발전을 위해 석사 학위를 추구하고자 합니다.",
+      "머신러닝, 컴퓨터 비전, 고성능 컴퓨팅 분야의 강한 연구 배경을 가진 컴퓨터 과학 학부 졸업생입니다. 연구 관심사는 AI 및 딥러닝을 포함합니다.",
 
     // Skills
     dataScience: "데이터 사이언스 & AI",
     cloudInfra: "클라우드 인프라-아키텍처",
+    dataScienceSkills: [
+      "⚡ 다양한 딥러닝 및 통계적 사용 사례를 위한 고도로 확장 가능한 프로덕션 준비 모델 개발",
+      "⚡ 시각적 입력을 통한 강화학습 프로젝트 작업 경험 및 IU의 Big Red 200을 사용한 GPU 구현 연구",
+      "⚡ 동적 예측 및 시계열 분석을 위한 복잡한 정량적 모델링",
+    ],
+    cloudInfraSkills: [
+      "⚡ 여러 클라우드 플랫폼에서 작업 경험",
+      "⚡ 데이터베이스 통합과 함께 가상 머신 인스턴스에서 웹사이트 호스팅 및 유지보수",
+    ],
 
     // Projects
     researchProjects: "연구 프로젝트",
@@ -72,6 +99,15 @@ export const translations = {
 
     // Education
     educationTitle: "학력",
+    degreesReceived: "받은 학위",
+    basicQualification: "기본 자격 및 인증",
+    visitWebsite: "웹사이트 방문",
+    degreeDescriptions: [
+      [
+        "⚡ 설명 가능한 AI, 그래프 머신러닝, 강화학습 등 인공지능 관련 다양한 과정을 수강했습니다.",
+        "⚡ 이 외에도 연구 조교를 수행했습니다. 이를 통해 ML 및 3D 모델에서 새로운 알고리즘을 만드는 작업을 수행했습니다.",
+      ],
+    ],
 
     // Contact
     contactMe: "연락처",

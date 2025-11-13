@@ -1,7 +1,6 @@
 # Daeyeop Kim's Portfolio
 
-
-**Live Site:** [daeyeopkim.github.io](https://dea980.github.io)
+**Live Site:** [dea980.github.io](https://dea980.github.io)
 
 ## 시작하기
 

@@ -5,20 +5,25 @@ import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { useLanguage } from "../../context/LanguageContext";
 import { translations } from "../../translations";
 
-const blogSection = contactPageData.blogSection;
-const addressSection = contactPageData.addressSection;
-
 function Contact(props) {
   const { language } = useLanguage();
-  const t = translations[language];
-  const theme = props.theme;
+  const t = translations[language] || translations.en;
+  const theme = props.theme || { text: "#000", secondaryText: "#666" };
+
+  // 컴포넌트 내부에서 직접 접근하여 항상 최신 데이터 사용
+  const contactSection = contactPageData?.contactSection;
+  const blogSection = contactPageData?.blogSection;
+  const addressSection = contactPageData?.addressSection;
+
+  if (!contactSection || !blogSection || !addressSection) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="contact-main">
@@ -28,7 +33,7 @@ function Contact(props) {
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <img
-                src={require(`../../assets/images/${contactPageData.contactSection.profile_image_path}`)}
+                src={require(`../../assets/images/${contactSection.profile_image_path}`)}
                 alt=""
                 className="contact-heading-img"
               />
@@ -90,8 +95,17 @@ function Contact(props) {
 
         <Fade bottom duration={1000} distance="40px">
           <div className="address-heading-div">
-            <div className="contact-heading-img-div">
-              <AddressImg theme={theme} />
+            <div className="address-map-div">
+              <iframe
+                src="https://www.google.com/maps?q=37.4448603,127.1807834&z=17&output=embed"
+                width="100%"
+                height="400"
+                style={{ border: 0, borderRadius: "10px" }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Location Map"
+              ></iframe>
             </div>
             <div className="address-heading-text-div">
               <h1
@@ -124,7 +138,7 @@ function Contact(props) {
           </div>
         </Fade>
       </div>
-      <Footer theme={theme} onToggle={props.onToggle} />
+      <Footer theme={theme} />
       <TopButton theme={theme} />
     </div>
   );

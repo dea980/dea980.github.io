@@ -7,12 +7,10 @@ import { Fade } from "react-reveal";
 import "./Publications.css";
 import ProjectsImg from "../projects/ProjectsImg";
 import { useLanguage } from "../../context/LanguageContext";
-import { translations } from "../../translations";
 import { publicationsHeader, publications } from "../../portfolio";
 
 function Publications(props) {
   const { language } = useLanguage();
-  const t = translations[language];
   const theme = props.theme;
 
   // 논문 정리와 연구 프로젝트를 분리
@@ -116,7 +114,7 @@ function Publications(props) {
         </div>
       )}
 
-      <Footer theme={theme} onToggle={props.onToggle} />
+      <Footer theme={theme} />
       <TopButton theme={theme} />
     </div>
   );

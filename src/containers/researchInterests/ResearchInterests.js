@@ -3,12 +3,10 @@ import "./ResearchInterests.css";
 import { researchInterests } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useLanguage } from "../../context/LanguageContext";
-import { translations } from "../../translations";
 
 export default function ResearchInterests(props) {
   const theme = props.theme;
   const { language } = useLanguage();
-  const t = translations[language];
 
   return (
     <div className="main" id="research-interests">

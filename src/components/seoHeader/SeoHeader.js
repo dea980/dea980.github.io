@@ -19,6 +19,8 @@ function SeoHeader() {
       sameAs.push(media.link);
     });
 
+  const { phoneSection, addressSection } = contactPageData;
+
   let mail = socialMediaLinks
     .find((media) => media.link.startsWith("mailto"))
     .link.substring("mailto:".length);
@@ -33,7 +35,7 @@ function SeoHeader() {
     name: greeting.title,
     url: seo?.og?.url,
     email: mail,
-    telephone: contactPageData.phoneSection?.subtitle,
+    telephone: phoneSection?.subtitle,
     sameAs: sameAs,
     ...(job && {
       jobTitle: job.title,
@@ -44,11 +46,11 @@ function SeoHeader() {
     }),
     address: {
       "@type": "PostalAddress",
-      addressLocality: contactPageData.addressSection?.locality,
-      addressRegion: contactPageData.addressSection?.region,
-      addressCountry: contactPageData.addressSection?.country,
-      postalCode: contactPageData.addressSection?.postalCode,
-      streetAddress: contactPageData.addressSection?.streetAddress,
+      addressLocality: addressSection?.locality,
+      addressRegion: addressSection?.region,
+      addressCountry: addressSection?.country,
+      postalCode: addressSection?.postalCode,
+      streetAddress: addressSection?.streetAddress,
     },
     hasCredential: credentials,
   };

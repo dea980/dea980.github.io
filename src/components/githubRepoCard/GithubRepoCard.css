@@ -49,7 +49,7 @@
 }
 
 .repo-name {
-  text-align: left;
+  text-align: left !important;
   color: rgb(36, 41, 46);
   font-family: "Google Sans Regular";
   margin-bottom: 0.75rem;
@@ -67,7 +67,7 @@
 
 .repo-description {
   overflow: hidden;
-  text-align: left;
+  text-align: left !important;
   display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 2;
@@ -110,6 +110,7 @@
 
   .repo-description {
     font-size: 14px;
+    text-align: left !important;
   }
 
   .repo-details {

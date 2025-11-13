@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "DaeyeopKim",
   nickname: "Dan the Man",
   subTitle:
-    "Computer Science graduate with strong research background in Machine Learning, Computer Vision, and High-Performance Computing. Seeking to pursue Master's degree to advance research in AI and Deep Learning.",
+    "Computer Science graduate with strong research background in Machine Learning, Computer Vision, and High-Performance Computing. Research interests include AI and Deep Learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1LOd6jVTlXfyu25IEgngsHXqWuIUCDHLP/view?usp=sharing",
+    "https://drive.google.com/file/d/1b9f9jG7ht52xxa488oANQL7k_yFChGr1/view?usp=sharing",
   portfolio_repository: "https://github.com/dea980",
   githubProfile: "https://github.com/dea980",
 };

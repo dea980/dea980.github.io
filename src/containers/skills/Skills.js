@@ -53,7 +53,12 @@ export default function Skills(props) {
                 </Fade>
                 <Fade right duration={1000}>
                   <div>
-                    {skill.skills.map((skillSentence, i) => {
+                    {(skill.title === "Data Science & AI"
+                      ? t.dataScienceSkills
+                      : skill.title === "Cloud Infra-Architecture"
+                      ? t.cloudInfraSkills
+                      : skill.skills
+                    ).map((skillSentence, i) => {
                       return (
                         <p
                           key={i}
