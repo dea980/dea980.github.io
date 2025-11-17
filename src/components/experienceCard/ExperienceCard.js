@@ -93,7 +93,7 @@ class ExperienceCard extends Component {
                     </a>
                   </p>
                 </div>
-                <div style={{ textAlign: "right" }}>
+                <div style={{ textAlign: "left" }}>
                   <div className="experience-card-heading-right">
                     <p
                       className="experience-card-duration"

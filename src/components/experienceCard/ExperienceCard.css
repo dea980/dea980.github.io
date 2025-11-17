@@ -165,7 +165,7 @@
   margin-bottom: 2px;
   margin-left: 0px;
   margin-right: 0px;
-  text-align: right;
+  text-align: left;
   color: #868e96;
 }
 
@@ -178,13 +178,13 @@
 .experience-card-heading-right {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .experience-card-location {
   font-family: "Google Sans Regular";
   margin: 0;
-  text-align: right;
+  text-align: left;
   color: #868e96;
 }
 
@@ -283,7 +283,7 @@
   .experience-card {
     /* margin-bottom:10px; */
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .arrow-left {
@@ -309,25 +309,23 @@
   }
 
   .experience-card-heading-right {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .experience-card-title {
-    /* text-align: center; */
+    text-align: left;
   }
 
   .experience-card-company {
-    /* text-align: center; */
+    text-align: left;
   }
 
   .experience-card-duration {
-    /* margin-top: 2px; */
-    /* text-align: center; */
+    text-align: left;
   }
 
   .experience-card-location {
-    /* text-align: left; */
-    /* text-align: center; */
+    text-align: left;
   }
 
   .experience-card-header-div {
